@@ -21,6 +21,7 @@ export const ExplanationContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 45%;
   height: 100%;
   gap: 1.25rem;
 `;
