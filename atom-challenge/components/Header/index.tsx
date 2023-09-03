@@ -11,6 +11,7 @@ import {
 } from "./styles";
 import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
+import { useEffect, useState } from "react";
 
 export const Header = () => {
   return (
@@ -29,7 +30,7 @@ export const Header = () => {
           </Description>
           <LinkContainer href="#" target="_blank" rel="noopener noreferrer">
             Ver mais
-            <ArrowRight color="#4FFF4B" size={25} />
+            <ArrowRight className="arrow_icon" color="#4FFF4B" size={25} />
           </LinkContainer>
         </ExplanationContainer>
         <ImageContainer>

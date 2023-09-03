@@ -1,11 +1,20 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const moveRight = keyframes`
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(30px); // Mude o valor conforme necessário
+  }
+`;
 
 export const Container = styled.div`
   width: 100%;
   margin: auto;
   padding: 4.25rem 8.55rem;
   background-color: #290742;
-`; 
+`;
 
 export const Content = styled.section`
   width: 100%;
@@ -15,7 +24,6 @@ export const Content = styled.section`
   gap: 4rem;
   max-width: 1440px;
   margin: auto;
-
 `;
 
 export const ExplanationContainer = styled.div`
@@ -48,15 +56,17 @@ export const LinkContainer = styled.a`
   color: #9e6dc2;
   font-family: Roboto;
   font-size: 1.125rem;
-  font-style: normal; 
+  font-style: normal;
   font-weight: 700;
   gap: 0.5rem;
   display: flex;
   align-items: center;
+  .arrow_icon {
+    animation: ${moveRight} 0.7s ease infinite alternate;
+  }
 `;
 
 export const ImageContainer = styled.div`
   border-radius: 0.5rem;
   background: rgba(0, 0, 0, 0.2);
-  //mix-blend-mode: overlay;
 `;

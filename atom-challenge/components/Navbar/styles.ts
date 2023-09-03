@@ -53,6 +53,7 @@ export const Navigation = styled.nav`
     border-right: 0.125rem solid transparent;
     &:hover {
       border-left: 0.125rem solid #4fff4b;
+      transition: border 0.5s;
     }
   }
   .ActiveClass {
