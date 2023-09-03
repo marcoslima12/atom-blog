@@ -5,6 +5,10 @@ export const Container = styled.div`
   max-width: 1440px;
   height: 37rem;
   margin: auto;
+  hr {
+    height: 0.375rem;
+    background: #4FFF4B;
+  }
 `; 
 
 export const Content = styled.section`
