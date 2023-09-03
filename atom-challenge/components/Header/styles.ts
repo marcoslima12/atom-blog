@@ -37,7 +37,7 @@ export const ExplanationContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: #9e6dc2;
+  color: #9e6dc2; 
   font-family: Poppins;
   font-size: 2.25rem;
   font-style: normal;

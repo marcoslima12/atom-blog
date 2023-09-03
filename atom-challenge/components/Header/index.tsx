@@ -4,7 +4,7 @@ import {
   Content,
   Container,
   Description,
-  ExplanationContainer,
+  ExplanationContainer, 
   Title,
   LinkContainer,
   ImageContainer,
@@ -14,6 +14,7 @@ import { ArrowRight } from "@phosphor-icons/react";
 import { useEffect, useState } from "react";
 
 export const Header = () => {
+  
   return (
     <Container>
       <Navbar />
