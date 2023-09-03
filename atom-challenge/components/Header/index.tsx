@@ -36,7 +36,6 @@ export const Header = () => {
           <Image src={CodeImage} alt="parte de um código" />
         </ImageContainer>
       </Content>
-      <hr />
     </Container>
   );
 };

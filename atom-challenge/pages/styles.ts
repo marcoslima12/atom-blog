@@ -4,6 +4,10 @@ export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
   background-color: #290742;
-  padding: 4.25rem 8.55rem;
+  hr {
+    width: inherit;
+    height: 0.375rem;
+    background: #4FFF4B; 
+  }
 `;
-  
+   

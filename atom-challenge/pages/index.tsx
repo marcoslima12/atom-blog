@@ -5,6 +5,7 @@ export default function Homepage() {
   return (
     <Container>
       <Header />
+      <hr />
     </Container>
   );
 }
