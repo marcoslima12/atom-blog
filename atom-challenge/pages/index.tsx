@@ -1,5 +1,4 @@
-import { Banner } from "@/components/ArticleSession";
-import { Header } from "../components";
+import { Header, Banner, ArticlesList } from "../components";
 import { Container } from "./styles";
 
 export default function Homepage() {
@@ -8,6 +7,7 @@ export default function Homepage() {
       <Header />
       <hr />
       <Banner />
+      <ArticlesList />
     </Container>
   );
 }

@@ -5,6 +5,7 @@ import Image from "next/image";
 interface ArticleProps {
   image: string;
   isMainArticle?: boolean;
+  imageWidth?: number;
   date: string;
   title: string;
   description: string;
@@ -13,6 +14,7 @@ interface ArticleProps {
 export const Article = ({
   image,
   isMainArticle,
+  imageWidth,
   date,
   title,
   description,
@@ -20,7 +22,11 @@ export const Article = ({
   return (
     <Container>
       {isMainArticle && (
-        <Image src={CodeImage} alt="Imagem relacionada ao artigo" />
+        <Image
+          width={imageWidth && imageWidth}
+          src={CodeImage}
+          alt="Imagem relacionada ao artigo"
+        />
       )}
       <p className="date">{date}</p>
       <h3>{title}</h3>

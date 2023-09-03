@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: flex-start;
   gap: 1rem;
+
   p.date {
     color: #000;
     font-family: Roboto;
@@ -13,6 +14,7 @@ export const Container = styled.div`
     font-style: normal;
     font-weight: 400;
   }
+
   h3 {
     color: #290742;
     font-family: Roboto;
@@ -20,6 +22,7 @@ export const Container = styled.div`
     font-style: normal;
     font-weight: 700;
   }
+
   p.description {
     color: #000;
     font-family: Roboto;
