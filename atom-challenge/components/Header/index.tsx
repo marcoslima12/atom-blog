@@ -17,7 +17,6 @@ export const Header = () => {
   
   return (
     <Container>
-      <Navbar />
       <Content>
         <ExplanationContainer>
           <Title>

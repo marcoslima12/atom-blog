@@ -12,7 +12,7 @@ const moveRight = keyframes`
 export const Container = styled.div`
   width: 100%;
   margin: auto;
-  padding: 4.25rem 8.55rem;
+  padding: 0rem 8.55rem 4.25rem 8.55rem;
   background-color: #290742;
 `;
 
@@ -37,7 +37,7 @@ export const ExplanationContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: #9e6dc2; 
+  color: #9e6dc2;
   font-family: Poppins;
   font-size: 2.25rem;
   font-style: normal;

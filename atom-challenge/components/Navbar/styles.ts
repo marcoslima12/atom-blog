@@ -2,12 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  padding-bottom: 2.5rem;
+  background-color: #290742;
+  padding: 4.25rem 8.55rem;
+`;
+
+export const Content = styled.div`
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
-  max-width: 1440px;
 `;
 
 export const InputContainer = styled.div`

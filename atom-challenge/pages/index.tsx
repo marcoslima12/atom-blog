@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Header, Banner, ArticlesList } from "../components";
+import { Header, Banner, ArticlesList, Navbar } from "../components";
 import { Container } from "./styles";
 import { LinearProgress } from "@mui/material";
 
@@ -29,6 +29,7 @@ export default function Homepage() {
         value={scrollPercentage}
         style={{ position: "fixed", top: 0, left: 0, width: "100%" }}
       />
+      <Navbar />
       <Header />
       <hr />
       <Banner />

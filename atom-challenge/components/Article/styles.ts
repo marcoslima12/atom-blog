@@ -6,6 +6,7 @@ export const Container = styled.div`
   justify-content: space-evenly;
   align-items: flex-start;
   gap: 1rem;
+  
 
   p.date {
     color: #000;
