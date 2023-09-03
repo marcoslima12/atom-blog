@@ -6,6 +6,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
+  max-width: 1440px;
 `;
 
 export const InputContainer = styled.div`

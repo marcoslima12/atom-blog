@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  max-width: 1440px;
   margin: auto;
-  padding: 4.25rem 8.55rem 0 8.55rem;
+  padding: 4.25rem 8.55rem;
+  background-color: #290742;
 `; 
 
 export const Content = styled.section`
@@ -13,6 +13,9 @@ export const Content = styled.section`
   justify-content: space-between;
   align-items: flex-start;
   gap: 4rem;
+  max-width: 1440px;
+  margin: auto;
+
 `;
 
 export const ExplanationContainer = styled.div`

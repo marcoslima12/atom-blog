@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-color: #290742;
   hr {
     width: inherit;
     height: 0.375rem;
