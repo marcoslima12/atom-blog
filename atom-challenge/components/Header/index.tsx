@@ -1,11 +1,11 @@
 import { CodeImage } from "@/assets";
 import { Navbar } from "..";
 import {
-  Body,
+  Content,
   Container,
   Description,
   ExplanationContainer,
-  MainTitle,
+  Title,
   LinkContainer,
   ImageContainer,
 } from "./styles";
@@ -16,26 +16,26 @@ export const Header = () => {
   return (
     <Container>
       <Navbar />
-      <Body>
+      <Content>
         <ExplanationContainer>
-          <MainTitle>
+          <Title>
             Veja o guia definitivo para conquistar seus objetivos como DEV em
             2022
-          </MainTitle>
+          </Title>
           <Description>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
             eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
             sed tristique placerat hac.
           </Description>
-          <LinkContainer>
-            <a href="wwww.google.com">Ver mais</a>
+          <LinkContainer href="#" target="_blank" rel="noopener noreferrer">
+            Ver mais
             <ArrowRight color="#4FFF4B" size={25} />
           </LinkContainer>
         </ExplanationContainer>
         <ImageContainer>
-          <Image src={CodeImage} alt="Imagem a ser mostrada" />
+          <Image src={CodeImage} alt="parte de um código" />
         </ImageContainer>
-      </Body>
+      </Content>
     </Container>
   );
 };
