@@ -40,14 +40,26 @@ export const Input = styled.input`
 `;
 
 export const Navigation = styled.nav`
-  .LinkRoute {
-    display: inline-block;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     margin-right: 2rem;
+    padding: 0.2rem;
+    height: 1.0625rem;
+    border-left: 0.125rem solid transparent;
+    border-right: 0.125rem solid transparent;
+    &:hover {
+      border-left: 0.125rem solid #4fff4b;
+    }
+  }
+  .ActiveClass {
+    border-left: 0.125rem solid #4fff4b;
   }
   color: #fff;
   font-family: Roboto;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
-  //margin-right: 9.56rem;
+  display: flex;
 `;

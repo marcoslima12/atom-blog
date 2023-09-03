@@ -6,4 +6,4 @@ export const Container = styled.div`
   background-color: #290742;
   padding: 4.25rem 8.55rem;
 `;
- 
+  

@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 37rem;
   margin: auto;
   padding: 2.5rem 0;
-`;
+`; 
 
 export const Content = styled.section`
   width: 100%;
@@ -45,7 +45,7 @@ export const LinkContainer = styled.a`
   color: #9e6dc2;
   font-family: Roboto;
   font-size: 1.125rem;
-  font-style: normal;
+  font-style: normal; 
   font-weight: 700;
   gap: 0.5rem;
   display: flex;
