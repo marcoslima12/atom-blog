@@ -43,7 +43,7 @@ export const Navigation = styled.nav`
   a {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin-right: 2rem;
     padding: 0.2rem;
     height: 1.0625rem;
