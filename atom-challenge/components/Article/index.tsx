@@ -1,31 +1,37 @@
-import { CodeImage } from "@/assets";
+import { CodeImage, SquadImage } from "@/assets";
 import { Container } from "./styles";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface ArticleProps {
-  image: string;
-  isMainArticle?: boolean;
+  image: StaticImageData;
+  showImage?: boolean;
   imageWidth?: number;
+  imageHeight?: number;
   date: string;
   title: string;
   description: string;
+  alt: string;
 }
 
 export const Article = ({
   image,
-  isMainArticle,
+  showImage,
   imageWidth,
+  imageHeight,
   date,
   title,
   description,
+  alt,
 }: ArticleProps) => {
   return (
     <Container>
-      {isMainArticle && (
+      {showImage && (
         <Image
+          className="ArticleImage"
           width={imageWidth && imageWidth}
-          src={CodeImage}
-          alt="Imagem relacionada ao artigo"
+          height={imageHeight && imageHeight}
+          src={image}
+          alt={alt}
         />
       )}
       <p className="date">{date}</p>

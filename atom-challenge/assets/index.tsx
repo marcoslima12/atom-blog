@@ -5,7 +5,12 @@ import ProfileImage from "./profile_nobg.png";
 import Github from "./github.png";
 import LinkedIn from "./linkedin.png";
 import Instagram from "./instagram.webp";
-import GroupImage from './friends.jpeg';
+import GroupImage from "./friends.jpeg";
+import SquadImage from "./squad.png";
+import PFLImage from "./pfl.jpeg";
+import CanadaImage from "./canada.jpeg";
+import PlacaImage from "./placa.jpeg";
+import CInImage from './cin.jpg';
 
 export {
   CodeImage,
@@ -15,5 +20,10 @@ export {
   Github,
   LinkedIn,
   Instagram,
-  GroupImage
+  GroupImage,
+  SquadImage,
+  PFLImage,
+  CanadaImage,
+  PlacaImage,
+  CInImage,
 };
