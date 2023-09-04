@@ -6,15 +6,20 @@ export const Container = styled.div`
   padding: 0rem 8.55rem 2rem 8.55rem;
 `;
 
-export const Content = styled.div`
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  padding-top: 2rem;
   max-width: 1440px;
+  margin: auto;
+`;
+
+export const Content = styled.div`
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 9rem;
-  margin: auto;
 `;
 
 export const PreviwArticles = styled.div`
@@ -31,11 +36,4 @@ export const BannerTitle = styled.h1`
   font-weight: 700;
   margin-right: 0;
   padding-top: 2rem;
-`;
-
-export const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  max-width: 1440px;
-  margin: auto;
 `;
