@@ -7,11 +7,9 @@ import {
   ExplanationContainer,
   Title,
   LinkContainer,
-  ImageContainer,
 } from "./styles";
 import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
-import { useEffect, useState } from "react";
 
 export const Header = () => {
   return (
@@ -30,14 +28,17 @@ export const Header = () => {
             CITi, empresa júnior da UFPE com mais de 28 anos de experiência no
             mercado.
           </Description>
-          <LinkContainer href="#ArticlesSection" /* target="_blank" rel="noopener noreferrer" */>
-            Ver mais
+          <LinkContainer href="#ArticlesSection">
+            Bora me conhecer
             <ArrowRight className="arrow_icon" color="#4FFF4B" size={25} />
           </LinkContainer>
         </ExplanationContainer>
-        <ImageContainer>
-          <Image src={GroupImage} width={600} alt="parte de um código" />
-        </ImageContainer>
+        <Image
+          className="PeopleImage"
+          src={GroupImage}
+          width={600}
+          alt="Foto de um grupo de pessoas"
+        />
       </Content>
     </Container>
   );

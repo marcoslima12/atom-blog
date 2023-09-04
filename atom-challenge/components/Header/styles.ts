@@ -18,12 +18,16 @@ export const Container = styled.div`
 
 export const Content = styled.section`
   width: 100%;
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 4rem;
-  max-width: 1440px;
   margin: auto;
+
+  .PeopleImage {
+    border-radius: 10px;
+  }
 `;
 
 export const ExplanationContainer = styled.div`
@@ -32,7 +36,6 @@ export const ExplanationContainer = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   width: 45%;
-  height: 100%;
   gap: 1.25rem;
 `;
 
@@ -69,9 +72,4 @@ export const LinkContainer = styled.a`
     transition: all 0.5s;
     transform: scale(1.1);
   }
-`;
-
-export const ImageContainer = styled.div`
-  border-radius: 0.5rem;
-  background: rgba(0, 0, 0, 0.2);
 `;
