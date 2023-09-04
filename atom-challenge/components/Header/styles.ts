@@ -12,7 +12,7 @@ const moveRight = keyframes`
 export const Container = styled.div`
   width: 100%;
   margin: auto;
-  padding: 0rem 8.55rem 4.25rem 8.55rem;
+  padding: 12rem 8.55rem 4.25rem 8.55rem;
   background-color: #290742;
 `;
 

@@ -33,12 +33,6 @@ export const Navbar = () => {
             Sobre
           </Link>
           <Link
-            className={router.pathname === "/Categorias" ? "ActiveClass" : ""}
-            href={"Categorias"}
-          >
-            Categorias
-          </Link>
-          <Link
             className={router.pathname === "/Contato" ? "ActiveClass" : ""}
             href={"Contato"}
           >

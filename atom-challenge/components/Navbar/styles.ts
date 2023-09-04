@@ -4,6 +4,8 @@ export const Container = styled.div`
   width: 100%;
   background-color: #290742;
   padding: 4.25rem 8.55rem;
+  position: fixed;
+  z-index: 4;
 `;
 
 export const Content = styled.div`

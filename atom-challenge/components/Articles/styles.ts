@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   background-color: #fbf6ff;
-  padding: 0rem 8.55rem 4rem 8.55rem;
+  padding: 12rem 8.55rem 4rem 8.55rem;
 `;
 
 export const Content = styled.div`
@@ -13,4 +13,6 @@ export const Content = styled.div`
   margin: auto;
   display: flex;
   gap: 2rem;
+  padding-top: 13rem;
 `;
+ 
