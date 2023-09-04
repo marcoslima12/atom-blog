@@ -14,19 +14,16 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 100%;
   padding-top: 2rem;
-  margin: auto;
   background-color: inherit;
   display: flex;
   gap: 2rem;
 `;
 
-export const BannerTitle = styled.h1`
+export const Title = styled.h1`
   color: #290742;
   font-family: Roboto;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  margin-right: 0;
 `;

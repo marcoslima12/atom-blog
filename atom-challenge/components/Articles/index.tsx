@@ -1,4 +1,4 @@
-import { Container, Content, BannerTitle, Wrapper } from "./styles";
+import { Container, Content, Title, Wrapper } from "./styles";
 import { Article } from "../Article";
 import {
   CInImage,
@@ -13,7 +13,7 @@ export const ArticlesList = () => {
   return (
     <Container>
       <Wrapper>
-        <BannerTitle>Além disso, o que mais eu já vivi?</BannerTitle>
+        <Title>Além disso, o que mais eu já vivi?</Title>
         <Content>
           <Article
             image={CanadaImage}
