@@ -5,7 +5,7 @@ const moveRight = keyframes`
     transform: translateX(0);
   }
   to {
-    transform: translateX(30px); // Mude o valor conforme necessário
+    transform: translateX(30px);
   }
 `;
 
