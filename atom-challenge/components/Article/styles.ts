@@ -10,9 +10,9 @@ export const Container = styled.div`
   padding: 0.5rem;
   border-radius: 10px;
   &:hover {
-    transform: scale(1.025);
+    transform: scale(1.04);
     transition: all 300ms;
-    box-shadow: 2.5px 2.5px 10px #888888;
+    //box-shadow: 2.5px 2.5px 10px #888888;
   }
 
   p.date {
