@@ -5,7 +5,7 @@ export const Container = styled.div`
   background-color: #290742;
   padding: 4.25rem 8.55rem;
   position: fixed;
-  z-index: 4;
+  z-index: 3;
 `;
 
 export const Content = styled.div`
@@ -53,7 +53,6 @@ export const Navigation = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 2rem;
     padding: 0.2rem;
     height: 1.0625rem;
     border-left: 0.125rem solid transparent;
@@ -72,4 +71,5 @@ export const Navigation = styled.nav`
   font-style: normal;
   font-weight: 700;
   display: flex;
+  gap: 2rem;
 `;

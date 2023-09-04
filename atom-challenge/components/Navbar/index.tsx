@@ -39,13 +39,6 @@ export const Navbar = () => {
             Contato
           </Link>
         </Navigation>
-
-        <InputContainer>
-          <Input type="text" placeholder="Buscar" />
-          <InputButton>
-            <MagnifyingGlass className="LupaImage" size={25} color="#F2E7FA" />
-          </InputButton>
-        </InputContainer>
       </Content>
     </Container>
   );
