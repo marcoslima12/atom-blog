@@ -5,6 +5,7 @@ import ProfileImage from "./profile_nobg.png";
 import Github from "./github.png";
 import LinkedIn from "./linkedin.png";
 import Instagram from "./instagram.webp";
+import GroupImage from './friends.jpeg';
 
 export {
   CodeImage,
@@ -14,4 +15,5 @@ export {
   Github,
   LinkedIn,
   Instagram,
+  GroupImage
 };

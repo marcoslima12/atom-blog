@@ -3,7 +3,7 @@ import { Container, Content, PreviwArticles } from "./styles";
 
 export const Banner = () => {
   return (
-    <Container>
+    <Container id="ArticlesSection">
       <Content>
         <Article
           image="assets/code_image.png"

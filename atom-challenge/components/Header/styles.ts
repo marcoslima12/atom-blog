@@ -64,6 +64,11 @@ export const LinkContainer = styled.a`
   .arrow_icon {
     animation: ${moveRight} 0.7s ease infinite alternate;
   }
+  &:hover {
+    color: #4fff4b;
+    transition: all 0.5s;
+    transform: scale(1.1);
+  }
 `;
 
 export const ImageContainer = styled.div`
