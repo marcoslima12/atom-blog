@@ -21,7 +21,6 @@ export default function About() {
               alt="Foto da pessoa"
             />
           }
-
           <AboutMeDescription>
             Também chamado de <span>Marcante</span>, sou filho de Antônio e
             Rosineide, nascido e criado em Timbaúba - PE, mas atualmente moro em

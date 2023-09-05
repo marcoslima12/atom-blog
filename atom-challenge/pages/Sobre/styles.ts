@@ -29,7 +29,7 @@ export const Container = styled.div`
   padding: 12rem 8.55rem 5rem 8.55rem;
 `;
 
-export const Content = styled.div`
+export const Content = styled.main`
   width: 100%;
   max-width: 1440px;
   margin: auto;
