@@ -7,7 +7,7 @@ import {
   StyledSocialMedia,
   SocialMediaList,
 } from "./styles";
-import { Navbar } from "@/components";
+import { Media, Navbar } from "@/components";
 import Image from "next/image";
 
 export default function ContactMe() {
@@ -35,13 +35,11 @@ export default function ContactMe() {
                 target="_blank"
               >
                 {" "}
-                <Image
-                  src={Github}
-                  width={80}
-                  height={80}
-                  alt="Icone do Github"
+                <Media
+                  image={Github}
+                  text="O que já construí no Github"
+                  alt="Logo do Github"
                 />
-                Olha o que já construí no Github
               </StyledSocialMedia>
             </li>
             <li>
@@ -49,13 +47,11 @@ export default function ContactMe() {
                 href="https://www.linkedin.com/in/marcos-antonio-vital-lima/"
                 target="_blank"
               >
-                <Image
-                  src={LinkedIn}
-                  width={80}
-                  height={80}
-                  alt="Icone do LinkedIn"
+                <Media
+                  image={LinkedIn}
+                  text="Se conecta no LinkedIn"
+                  alt="Logo do LinkedIn"
                 />
-                Se conecta no LinkedIn
               </StyledSocialMedia>
             </li>
             <li>
@@ -64,13 +60,11 @@ export default function ContactMe() {
                 target="_blank"
               >
                 {" "}
-                <Image
-                  src={Instagram}
-                  width={80}
-                  height={80}
-                  alt="Icone do LinkedIn"
+                <Media
+                  image={Instagram}
+                  text="Me segue no Instagram"
+                  alt="Logo do Instagram"
                 />
-                Me segue no instagram
               </StyledSocialMedia>
             </li>
           </SocialMediaList>

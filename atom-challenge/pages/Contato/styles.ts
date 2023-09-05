@@ -55,7 +55,7 @@ export const Content = styled.main`
   }
 `;
 export const SocialMediaList = styled.ul`
-  max-width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
@@ -65,7 +65,6 @@ export const SocialMediaList = styled.ul`
 export const StyledSocialMedia = styled.a`
   display: flex;
   align-items: center;
-  gap: 1.5rem;
   margin: 1rem 0;
 `;
 
