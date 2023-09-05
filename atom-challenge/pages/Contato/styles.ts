@@ -30,7 +30,7 @@ export const Container = styled.div`
   position: relative;
 `;
 
-export const Content = styled.div`
+export const Content = styled.main`
   width: 100%;
   max-width: 1440px;
   margin: auto;
