@@ -8,8 +8,5 @@ export const Container = styled.div`
     height: 0.375rem;
     background: #4FFF4B; 
   }
-  .ProgressBar {
-    color: #4FFF4B;
-  }
 `;
-   
+    

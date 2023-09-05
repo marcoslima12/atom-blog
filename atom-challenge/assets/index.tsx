@@ -11,6 +11,7 @@ import PFLImage from "./pfl.jpeg";
 import CanadaImage from "./canada.jpeg";
 import PlacaImage from "./placa.jpeg";
 import CInImage from './cin.jpg';
+import AuthorImage from './eu.jpeg';
 
 export {
   CodeImage,
@@ -26,4 +27,5 @@ export {
   CanadaImage,
   PlacaImage,
   CInImage,
+  AuthorImage
 };

@@ -1,4 +1,26 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeInFromLeft = keyframes`
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
+
+const fadeInFromRight = keyframes`
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
 
 export const Container = styled.div`
   width: 100%;
@@ -13,11 +35,12 @@ export const Content = styled.div`
   max-width: 1440px;
   margin: auto;
   color: black;
- 
+
   .ImageProfile {
     position: absolute;
     bottom: 0;
     right: 0;
+    animation: ${fadeInFromRight} 0.7s ease;
   }
 
   a {
@@ -36,6 +59,7 @@ export const SocialMediaList = styled.ul`
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
+  animation: ${fadeInFromLeft} 0.7s ease;
 `;
 
 export const StyledSocialMedia = styled.a`
@@ -51,6 +75,7 @@ export const ContactTitle = styled.h1`
   font-size: 5rem;
   font-style: normal;
   font-weight: 700;
+  animation: ${fadeInFromLeft} 0.7s ease;
 `;
 
 export const ContactMeDescription = styled.p`
@@ -60,4 +85,5 @@ export const ContactMeDescription = styled.p`
   font-style: normal;
   font-weight: 400;
   max-width: 45%;
+  animation: ${fadeInFromLeft} 0.7s ease;
 `;

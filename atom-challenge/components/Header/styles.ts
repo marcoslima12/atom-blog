@@ -5,7 +5,29 @@ const moveRight = keyframes`
     transform: translateX(0);
   }
   to {
-    transform: translateX(30px);
+    transform: translateX(20px);
+  }
+`;
+
+const fadeInFromLeft = keyframes`
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to { 
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
+
+const fadeInFromRight = keyframes`
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 `;
 
@@ -24,6 +46,8 @@ export const Content = styled.section`
   align-items: flex-start;
   gap: 4rem;
   margin: auto;
+  animation: ${fadeInFromRight} 0.7s ease;
+
 
   .PeopleImage {
     border-radius: 10px;
@@ -45,6 +69,8 @@ export const Title = styled.h1`
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 700;
+  animation: ${fadeInFromLeft} 0.7s ease;
+
 `;
 
 export const Description = styled.p`
@@ -53,6 +79,8 @@ export const Description = styled.p`
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
+  animation: ${fadeInFromLeft} 0.7s ease;
+
 `;
 
 export const LinkContainer = styled.a`
@@ -63,7 +91,7 @@ export const LinkContainer = styled.a`
   font-weight: 700;
   gap: 0.5rem;
   display: flex;
-  align-items: center;
+  align-items: center; 
   .arrow_icon {
     animation: ${moveRight} 0.7s ease infinite alternate;
   }
@@ -71,5 +99,6 @@ export const LinkContainer = styled.a`
     color: #4fff4b;
     transition: all 0.5s;
     transform: scale(1.1);
-  }
+  } 
 `;
+ 

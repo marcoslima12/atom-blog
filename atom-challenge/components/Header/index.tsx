@@ -7,14 +7,14 @@ import {
   ExplanationContainer,
   Title,
   LinkContainer,
-} from "./styles";
+} from "./styles"; 
 import Image from "next/image";
 import { ArrowRight } from "@phosphor-icons/react";
 
 export const Header = () => {
   return (
     <Container>
-      <Content>
+      <Content> 
         <ExplanationContainer>
           <Title>
             Olá. Prazer! Boas-vindas! <br />
