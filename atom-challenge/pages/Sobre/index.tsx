@@ -1,5 +1,5 @@
 import { Navbar } from "@/components";
-import { Container, AboutMeTitle, Content, AboutMeDescription } from "./styles";
+import { Container, AboutMeTitle, Content, AboutMeDescription } from "../../styles/sobre_styles";
 import Image from "next/image";
 import { AuthorImage, PersonImage } from "@/assets";
 import { ArrowUpRight } from "@phosphor-icons/react";

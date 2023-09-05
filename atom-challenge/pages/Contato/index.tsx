@@ -6,7 +6,7 @@ import {
   ContactMeDescription,
   StyledSocialMedia,
   SocialMediaList,
-} from "./styles";
+} from "../../styles/contact_styles";
 import { Media, Navbar } from "@/components";
 import Image from "next/image";
 
